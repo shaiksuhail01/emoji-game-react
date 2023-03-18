@@ -1,0 +1,47 @@
+.navContainer {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.emojiLogoContainer {
+  display: flex;
+}
+.emojiLogo {
+  width: 30px;
+  height: 30px;
+  margin-top: 9px;
+}
+.navHeading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+}
+.scoreContainer {
+  display: flex;
+}
+.scoreMargin {
+  margin-right: 17px;
+}
+@media screen and (min-width: 768px) {
+  .navContainer {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+  .emojiLogo {
+    width: 40px;
+    height: 40px;
+  }
+  .navHeading {
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .scoreMargin {
+    margin-right: 23px;
+  }
+}

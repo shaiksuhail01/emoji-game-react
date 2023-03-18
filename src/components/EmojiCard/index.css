@@ -1,0 +1,35 @@
+.emojiItem {
+  background-color: #ffffff33;
+  border-width: 2px;
+  border-radius: 22px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #ffffff30;
+  width: 90px;
+  padding-top: 15px;
+  padding-bottom: 14px;
+  margin: 4px;
+  margin-bottom: 15px;
+}
+.emojiButton {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.emojiItemImage {
+  width: 50px;
+}
+@media screen and (min-width: 768px) {
+  .emojiItem {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 150px;
+    margin-bottom: 15px;
+  }
+  .emojiItemImage {
+    width: 70px;
+  }
+}
